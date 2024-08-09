@@ -1,0 +1,16 @@
+=================================================================
+==83185==ERROR: AddressSanitizer: SEGV on unknown address 0x000edbe0 (pc 0x21c48645 bp 0xffbfea48 sp 0xffbfea44 T0)
+==83185==The signal is caused by a READ memory access.
+    #0 0x21c48645 in __dynamic_cast /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15
+    #1 0x1151974 in __je_tcache_bin_flush_large /usr/obj/usr/src/amd64.amd64/obj-lib32/lib/libc/jemalloc_tcache.c
+    #2 0x151d36e  (/home/serverfiles/main/srv1/share/bin/game+0x151d36e)
+    #3 0x96e7cb in std::__1::__tree<std::__1::__value_type<unsigned int, building::CObject*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, building::CObject*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, building::CObject*> > >::__remove_node_pointer(std::__1::__tree_node<std::__1::__value_type<unsigned int, building::CObject*>, void*>*) /usr/include/c++/v1/__tree:2253:5
+    #4 0x96e7cb in std::__1::__tree<std::__1::__value_type<unsigned int, building::CObject*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, building::CObject*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, building::CObject*> > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<unsigned int, building::CObject*>, std::__1::__tree_node<std::__1::__value_type<unsigned int, building::CObject*>, void*>*, int>) /usr/include/c++/v1/__tree:2422:20
+    #5 0x96e7cb in unsigned int std::__1::__tree<std::__1::__value_type<unsigned int, building::CObject*>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, building::CObject*>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, building::CObject*> > >::__erase_unique<unsigned int>(unsigned int const&) /usr/include/c++/v1/__tree:2447:5
+    #6 0x96e7cb in std::__1::map<unsigned int, building::CObject*, std::__1::less<unsigned int>, std::__1::allocator<std::__1::pair<unsigned int const, building::CObject*> > >::erase(unsigned int const&) /usr/include/c++/v1/map:1367:25
+    #7 0x96e7cb in building::CManager::UnregisterObject(building::CObject*) /usr/home/server-src/Code/game/src/building.cpp:1007:19
+    #8 0x96e92f in building::CLand::PutData(building::SLand const*) /usr/home/server-src/Code/game/src/building.cpp
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15 in __dynamic_cast
+==83185==ABORTING

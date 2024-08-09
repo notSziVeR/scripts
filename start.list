@@ -1,0 +1,51 @@
+[
+    {
+        "serv": "srv1", 
+        "path": "srv1/db", 
+        "chan": 0, 
+        "type": 1, 
+        "name": "srv1-db"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/auth", 
+        "chan": 0, 
+        "type": 2, 
+        "name": "srv1-auth"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/chan/ch1/core1", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "srv1-ch1-core1"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/chan/ch1/core2", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "srv1-ch1-core2"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/chan/ch2/core1", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "srv1-ch2-core1"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/chan/ch2/core2", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "srv1-ch2-core2"
+    }, 
+    {
+        "serv": "srv1", 
+        "path": "srv1/chan/ch99/core99", 
+        "chan": 99, 
+        "type": 5, 
+        "name": "srv1-ch99-core99"
+    }
+]

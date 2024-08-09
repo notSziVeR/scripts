@@ -1,0 +1,836 @@
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 24
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:25776
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 25
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:28592
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30018
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 26
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:29872
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30010
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 27
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:32176
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30006
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30014
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing p2p socket. DESC #20
+Jun 24 20:24:05 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing p2p socket. DESC #26
+Jun 24 20:24:05 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing client socket. DESC #19
+Jun 24 20:24:11 :: PARTY Disable
+Jun 24 20:24:11 :: SYSTEM: closing client socket. DESC #14
+Jun 24 20:24:11 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:12 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:13 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:14 :: SYSTEM: Trying to connect to 127.0.0.1:30000
+Jun 24 20:24:14 :: SYSTEM: connected to server (fd 14, ptr 0x211a1300)
+Jun 24 20:24:14 :: DB_SETUP current user 0 size 154
+Jun 24 20:24:14 :: PARTY Enable
+Jun 24 20:24:14 :: InputDB::MapLocations 1
+Jun 24 20:24:14 :: MapLocation::Insert : 1 185.202.223.143 30019
+Jun 24 20:24:14 :: MapLocation::Insert : 2 185.202.223.143 30019
+Jun 24 20:24:14 :: MapLocation::Insert : 3 185.202.223.143 30019
+Jun 24 20:24:14 :: MapLocation::Insert : 41 185.202.223.143 30019
+Jun 24 20:24:14 :: MapLocation::Insert : 43 185.202.223.143 30019
+Jun 24 20:24:14 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:14 :: InputDB:P2P 185.202.223.143:30012
+Jun 24 20:24:14 :: SYSTEM: Trying to connect to 185.202.223.143:30012
+Jun 24 20:24:14 :: SYSTEM: connected to server (fd 19, ptr 0x31b68a00)
+Jun 24 20:24:14 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:14 :: InputDB:P2P 185.202.223.143:30016
+Jun 24 20:24:14 :: SYSTEM: Trying to connect to 185.202.223.143:30016
+Jun 24 20:24:14 :: SYSTEM: connected to server (fd 20, ptr 0x31b68f00)
+Jun 24 20:24:14 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:15 :: InputDB:P2P 185.202.223.143:30008
+Jun 24 20:24:15 :: SYSTEM: Trying to connect to 185.202.223.143:30008
+Jun 24 20:24:15 :: SYSTEM: connected to server (fd 26, ptr 0x31b69400)
+Jun 24 20:24:15 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:16 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:16 :: InputDB:P2P 185.202.223.143:30004
+Jun 24 20:24:16 :: SYSTEM: Trying to connect to 185.202.223.143:30004
+Jun 24 20:24:16 :: SYSTEM: connected to server (fd 28, ptr 0x31b69900)
+Jun 24 20:24:16 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:16 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:16 :: InputDB:P2P 185.202.223.143:30006
+Jun 24 20:24:16 :: SYSTEM: Trying to connect to 185.202.223.143:30006
+Jun 24 20:24:16 :: SYSTEM: connected to server (fd 29, ptr 0x31b69e00)
+Jun 24 20:24:16 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:16 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:21 :: InputDB:P2P 185.202.223.143:30018
+Jun 24 20:24:21 :: SYSTEM: Trying to connect to 185.202.223.143:30018
+Jun 24 20:24:21 :: SYSTEM: connected to server (fd 30, ptr 0x31b6a300)
+Jun 24 20:24:21 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:21 :: InputDB:P2P 185.202.223.143:30014
+Jun 24 20:24:21 :: SYSTEM: Trying to connect to 185.202.223.143:30014
+Jun 24 20:24:21 :: SYSTEM: connected to server (fd 31, ptr 0x31b6a800)
+Jun 24 20:24:21 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:21 :: InputDB::MapLocations 1
+Jun 24 20:24:21 :: MapLocation::Insert : 61 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 62 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 63 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 64 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 65 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 67 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 68 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 71 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 72 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 73 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 104 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 215 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 216 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 217 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 218 185.202.223.143 30021
+Jun 24 20:24:21 :: MapLocation::Insert : 353 185.202.223.143 30021
+Jun 24 20:24:22 :: InputDB:P2P 185.202.223.143:30010
+Jun 24 20:24:22 :: SYSTEM: Trying to connect to 185.202.223.143:30010
+Jun 24 20:24:22 :: SYSTEM: connected to server (fd 32, ptr 0x31b6ad00)
+Jun 24 20:24:22 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:28 :: P2P: Login Shimo
+Jun 24 20:24:28 :: OfflineShop :: Login(1) -> P2P
+Jun 24 20:24:53 :: no sectree for spawn at 999127 876545 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 999997 876345 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 998085 877230 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 998098 876457 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 998009 876424 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 996525 876591 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 997296 876913 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 996599 876582 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 997569 876593 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 998869 876307 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 996395 877106 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 999569 876397 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 999080 877271 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 998827 876463 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 999502 877293 mobvnum 8003 mapindex 41
+Jun 24 20:24:53 :: no sectree for spawn at 996812 876415 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 491704 1478075 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 490971 1478426 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 489182 1477699 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491459 1477711 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 492524 1477855 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 490033 1477681 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491313 1478156 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491218 1478056 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491618 1478090 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491083 1478142 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491844 1477886 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491606 1478284 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491983 1478064 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 490101 1477677 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 492171 1477801 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 491353 1477992 mobvnum 8002 mapindex 1
+Jun 24 20:24:54 :: no sectree for spawn at 981497 886673 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 980112 886979 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 980985 886882 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 978650 887266 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 982252 887211 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 978622 887238 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 979661 887185 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 981835 887107 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 980359 886428 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 978812 886690 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 978543 886636 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 980972 886302 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 980890 887180 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 981675 886971 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 979057 886776 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 978325 886952 mobvnum 8002 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 985655 866597 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986313 866632 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 983054 866828 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 982923 866597 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 985192 866586 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986302 866631 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 985732 866574 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 985567 866482 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986392 866920 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 984778 867265 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986443 866740 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 983623 867035 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986016 866724 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 984594 867223 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 986086 867210 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 984300 866607 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941428 366769 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 943596 366467 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941588 367081 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 940591 366325 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 944453 366608 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 942866 367249 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 943647 367212 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941094 367144 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941939 366736 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 944387 366871 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 942297 366576 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 944468 366639 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941667 366492 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 941626 366479 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 942921 366514 mobvnum 8003 mapindex 41
+Jun 24 20:24:54 :: no sectree for spawn at 944076 367258 mobvnum 8003 mapindex 41
+Jun 24 20:24:55 :: no sectree for spawn at 492174 1697820 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 490226 1698107 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 490934 1698436 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 491906 1697606 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 492459 1697932 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 490569 1697675 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 491724 1697646 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 490323 1697754 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 492553 1697628 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 489078 1697650 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 490921 1698189 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 491444 1698237 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 488936 1697763 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 492594 1697672 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 489572 1697826 mobvnum 8003 mapindex 1
+Jun 24 20:24:55 :: no sectree for spawn at 488803 1698178 mobvnum 8003 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450818 1488069 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 451089 1488073 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 451603 1487906 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 452696 1487584 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450032 1488332 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 449200 1487665 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 449256 1487899 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 449047 1488376 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450053 1487728 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 448772 1487749 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450523 1488141 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450145 1488050 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 450933 1487783 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 448952 1487566 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 452661 1488239 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 451827 1487916 mobvnum 8002 mapindex 1
+Jun 24 20:24:56 :: no sectree for spawn at 969547 376351 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969171 376920 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 971470 377064 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969345 376458 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 970123 376906 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969254 377092 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 970568 376996 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 968805 376398 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969453 377167 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 970643 376774 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 970773 376565 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 968058 377210 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 970093 376684 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969530 377267 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 969750 377163 mobvnum 8002 mapindex 41
+Jun 24 20:24:56 :: no sectree for spawn at 968845 377033 mobvnum 8002 mapindex 41
+Jun 24 20:24:57 :: no sectree for spawn at 452938 1287720 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 452762 1287537 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 455435 1287788 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454910 1287617 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454661 1288037 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454650 1288252 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 453903 1288269 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 455072 1288111 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454510 1287922 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 451835 1287760 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 455567 1288065 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 455321 1287524 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454946 1287530 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 453525 1287694 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 453074 1287794 mobvnum 8003 mapindex 1
+Jun 24 20:24:57 :: no sectree for spawn at 454555 1287643 mobvnum 8003 mapindex 1
+Jun 24 20:24:58 :: no sectree for spawn at 940717 1186922 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 941318 1186397 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 938543 1187130 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 939780 1186639 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 939774 1186681 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 940537 1187048 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 938095 1186418 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 939650 1186826 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 938612 1186350 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 938226 1186860 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 940729 1186505 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 939714 1186581 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 941579 1186906 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 940723 1186614 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 940083 1186742 mobvnum 8003 mapindex 41
+Jun 24 20:24:58 :: no sectree for spawn at 940036 1187205 mobvnum 8003 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 459077 1068431 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 455423 1068157 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 458591 1067613 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 456662 1068312 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 455507 1067534 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 455690 1067671 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 457880 1067811 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 458080 1068225 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 456121 1067754 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 457951 1067606 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 459085 1068035 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 455671 1067692 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 458020 1067561 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 458230 1068226 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 456246 1067583 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 458346 1067550 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 474546 1757788 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476710 1757786 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476795 1758453 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 477557 1758453 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476415 1757888 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 475842 1758395 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 473996 1758341 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 477251 1757557 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 477347 1757530 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 474707 1757719 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 475637 1758492 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476366 1758439 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 475606 1757621 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 477712 1757946 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476329 1758075 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 476645 1758486 mobvnum 8002 mapindex 1
+Jun 24 20:24:59 :: no sectree for spawn at 962358 426534 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 961693 427092 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 959905 426486 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 959615 426628 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 961872 427169 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 960622 427202 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 960084 427251 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 959527 427108 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 961600 426852 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 962121 426711 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 959318 426325 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 961287 426383 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 958737 426638 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 962644 426617 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 958843 427202 mobvnum 8002 mapindex 41
+Jun 24 20:24:59 :: no sectree for spawn at 961974 427002 mobvnum 8002 mapindex 41
+Jun 24 20:25:02 :: no sectree for spawn at 461896 1298103 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 461311 1297609 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 461537 1298186 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 461984 1298042 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 461330 1298378 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 458644 1297728 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 459489 1297854 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 459488 1298285 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 460542 1297524 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 458576 1298104 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 459901 1297575 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 459091 1297518 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 459986 1298275 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 458167 1298216 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 458217 1298161 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 461627 1298321 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505703 1117707 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 504729 1117733 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 506970 1118466 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505887 1118190 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 504754 1117952 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505143 1118327 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 506358 1117747 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 506594 1118242 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 503886 1118434 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 504643 1118406 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 503943 1117510 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505794 1117522 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505926 1118420 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505617 1118092 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 504604 1118281 mobvnum 8003 mapindex 1
+Jun 24 20:25:02 :: no sectree for spawn at 505828 1117760 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263091 1101149 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263362 1099850 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1261403 1100945 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1259935 1101174 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263278 1099650 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263296 1100212 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1260472 1101337 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1261963 1102571 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1260639 1099234 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1262195 1101073 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1262953 1100146 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1259859 1100234 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263263 1100511 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1263059 1099608 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1262445 1099813 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 1259719 1101682 mobvnum 8003 mapindex 1
+Jun 24 20:25:05 :: no sectree for spawn at 938136 506571 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 940248 506839 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 937455 506846 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 939413 506307 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 938652 506318 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 939280 506358 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 937624 506814 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 939436 507266 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 939584 506933 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 938774 506458 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 936471 506960 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 940381 507154 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 940031 506703 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 937603 507058 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 937703 506876 mobvnum 8004 mapindex 41
+Jun 24 20:25:05 :: no sectree for spawn at 938415 506957 mobvnum 8004 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949836 586647 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949552 586923 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 948781 586785 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 948423 587177 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949099 587241 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949774 586395 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 947888 586759 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949449 586641 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 951304 586416 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 951137 587102 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 951400 586634 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 951577 587198 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 950674 586994 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 949816 586652 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 948016 586834 mobvnum 8002 mapindex 41
+Jun 24 20:25:07 :: no sectree for spawn at 950921 586698 mobvnum 8002 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 964226 1237137 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961312 1236610 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 964293 1236710 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960433 1236794 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 963846 1236913 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 962778 1236564 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960984 1237122 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 963790 1237025 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 963827 1236611 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961057 1237279 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 962143 1237177 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961781 1236347 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 963231 1237180 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 963356 1236489 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961883 1236690 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960631 1237098 mobvnum 8003 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960263 1227044 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959786 1227046 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959703 1226446 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 958989 1226551 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959003 1226561 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961085 1226613 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 958323 1226831 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960946 1226862 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960158 1227209 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 960292 1226305 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959356 1226975 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959972 1226633 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 961183 1227271 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 958093 1226369 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959609 1227039 mobvnum 8004 mapindex 41
+Jun 24 20:25:09 :: no sectree for spawn at 959673 1226309 mobvnum 8004 mapindex 41
+Jun 24 20:25:12 :: GLOBAL_TIME: Jun 24 20:25:12 time_gap 0
+Jun 24 20:26:12 :: GLOBAL_TIME: Jun 24 20:26:12 time_gap 0
+Jun 24 20:26:53 :: no sectree for spawn at 997946 877294 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 999206 876953 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 998434 876524 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 1000271 877046 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 998335 876706 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 999308 876841 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 996515 876862 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 997251 876646 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 999582 877188 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 997615 876529 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 997198 876545 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 999346 877201 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 997741 877254 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 998378 876724 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 997426 876341 mobvnum 8003 mapindex 41
+Jun 24 20:26:53 :: no sectree for spawn at 998328 877232 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 489010 1478101 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 489879 1477631 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 489400 1477673 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 492467 1478310 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 492062 1477755 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 489460 1477645 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 490569 1477784 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 488682 1477725 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 491958 1477673 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 490418 1477649 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 489121 1478083 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 492198 1478258 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 492379 1478057 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 491835 1477845 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 492387 1478471 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 489552 1478178 mobvnum 8002 mapindex 1
+Jun 24 20:26:54 :: no sectree for spawn at 978659 886995 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 981602 886868 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 980219 887275 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 979862 886776 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 979442 887062 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 981267 887204 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 978300 886946 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 978831 886663 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 979970 886544 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 980901 886588 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 980696 886605 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 979858 887058 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 981976 886938 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 978910 886957 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 980129 887195 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 980352 886803 mobvnum 8002 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 984491 866533 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 982809 866641 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 984268 866655 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 986119 866734 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 986071 867263 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 982605 866744 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 985783 866813 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 986024 867187 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 983735 866602 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 984896 867175 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 985815 866942 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 983111 867003 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 985480 866861 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 984637 866958 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 983624 866848 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 984570 867044 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 943738 366930 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 941475 366453 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 941892 366785 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 940661 367014 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 940970 366397 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 941373 366569 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 941877 366512 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 940531 366689 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 942591 366926 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 942943 366545 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 941146 366993 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 940991 366348 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 943896 366939 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 942818 366822 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 943017 366450 mobvnum 8003 mapindex 41
+Jun 24 20:26:54 :: no sectree for spawn at 942370 367031 mobvnum 8003 mapindex 41
+Jun 24 20:26:55 :: no sectree for spawn at 491315 1697783 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 491452 1698304 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 491290 1698418 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489775 1697863 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 491573 1698210 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 488982 1698122 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 490558 1697950 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 491591 1698059 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489414 1697915 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489286 1698008 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489779 1698153 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 490337 1697816 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 491639 1697606 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489406 1697553 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489395 1698392 mobvnum 8003 mapindex 1
+Jun 24 20:26:55 :: no sectree for spawn at 489942 1698169 mobvnum 8003 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 452484 1487982 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449314 1488285 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449975 1488351 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449066 1487865 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 451706 1488389 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 450127 1488269 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 451573 1487842 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449719 1488379 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 450137 1488168 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 451759 1488383 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 451296 1488416 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449445 1488329 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 448856 1487871 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449426 1487799 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 451431 1488500 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 449282 1487671 mobvnum 8002 mapindex 1
+Jun 24 20:26:56 :: no sectree for spawn at 970931 376860 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 969127 376427 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 971820 376300 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 968804 376546 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 968982 376652 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 968857 376562 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 970592 376644 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 968591 377155 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 970893 376330 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 969548 377167 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 970011 376744 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 969057 376771 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 968757 376651 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 970510 376586 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 969247 377181 mobvnum 8002 mapindex 41
+Jun 24 20:26:56 :: no sectree for spawn at 969894 376977 mobvnum 8002 mapindex 41
+Jun 24 20:26:57 :: no sectree for spawn at 453244 1288167 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 455299 1288392 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 454488 1288148 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 455528 1287713 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 453754 1288154 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452948 1288083 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452291 1287756 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452747 1288400 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452034 1287748 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452461 1288353 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 451820 1287961 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 455573 1287852 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452556 1287619 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 455633 1287756 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 453251 1287511 mobvnum 8003 mapindex 1
+Jun 24 20:26:57 :: no sectree for spawn at 452046 1287848 mobvnum 8003 mapindex 1
+Jun 24 20:26:58 :: no sectree for spawn at 940538 1186429 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940565 1187192 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 939141 1187220 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938947 1186501 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 941786 1187235 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938446 1186403 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940149 1186308 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938990 1187293 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938204 1186873 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940668 1187261 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 941512 1186797 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940394 1186824 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940100 1186370 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 940508 1186487 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938513 1186464 mobvnum 8003 mapindex 41
+Jun 24 20:26:58 :: no sectree for spawn at 938801 1186947 mobvnum 8003 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 455973 1068199 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 457402 1067740 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 458441 1068087 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 456071 1067769 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 457361 1067755 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 456473 1068167 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 456747 1068401 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 458433 1067800 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 455873 1067772 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 457437 1067528 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 455982 1068069 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 456497 1067968 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 455971 1068335 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 457720 1067771 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 455561 1067657 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 455703 1067931 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 476994 1758005 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 475905 1757734 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474235 1757588 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 476462 1757639 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 475745 1757849 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 477793 1758043 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 476239 1757704 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474933 1757980 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 475164 1758079 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474275 1758245 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474152 1757875 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474993 1758011 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 475993 1758467 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 475513 1757883 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 474361 1758348 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 476607 1757630 mobvnum 8002 mapindex 1
+Jun 24 20:26:59 :: no sectree for spawn at 962149 426901 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 960736 426660 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 959448 427161 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 960215 426640 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 959058 426965 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 961662 426434 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 961906 427289 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 959442 426323 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 962295 426361 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 961560 427041 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 959536 426886 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 958924 426848 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 961329 426494 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 960248 427253 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 959174 426993 mobvnum 8002 mapindex 41
+Jun 24 20:26:59 :: no sectree for spawn at 961412 427269 mobvnum 8002 mapindex 41
+Jun 24 20:27:02 :: no sectree for spawn at 458277 1298270 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 458580 1297614 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 461120 1297527 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 461858 1298318 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 458712 1297701 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 460718 1298266 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 459057 1297878 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 460661 1298111 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 459350 1298104 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 460592 1298425 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 460531 1298305 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 460555 1297971 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 461039 1298276 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 459600 1298482 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 461084 1298346 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 458065 1298178 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504455 1117721 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 506662 1117506 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 506116 1118444 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504696 1118372 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504425 1118125 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 507222 1118412 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 503964 1117920 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 505911 1118252 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 506297 1118274 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504039 1118338 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 505974 1117870 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 506598 1118000 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 506140 1117776 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504131 1118140 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 504976 1118182 mobvnum 8003 mapindex 1
+Jun 24 20:27:02 :: no sectree for spawn at 503584 1117568 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1259957 1100545 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1262181 1100227 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1263287 1101377 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1262067 1100917 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1261023 1100089 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1262990 1102278 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1260796 1101987 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1260895 1100401 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1259947 1098843 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1261602 1102197 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1262549 1100347 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1263255 1100937 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1260532 1102363 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1261051 1100860 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1263400 1100704 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 1261514 1100217 mobvnum 8003 mapindex 1
+Jun 24 20:27:05 :: no sectree for spawn at 938328 507157 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 939201 506358 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 937861 507161 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 939900 506366 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 939651 506466 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 937194 506914 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 938915 506990 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 937288 507129 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 938497 506420 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 939153 507038 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 936831 506513 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 938291 507165 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 937682 506688 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 938667 507237 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 937915 506553 mobvnum 8004 mapindex 41
+Jun 24 20:27:05 :: no sectree for spawn at 936445 506982 mobvnum 8004 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948792 586538 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 950311 587197 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948713 586492 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948953 586568 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 950392 586997 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948296 586651 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 947833 586459 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948388 587198 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948835 586781 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 949887 586330 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948577 586425 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 950515 586805 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 948767 587013 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 950910 587075 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 950492 586724 mobvnum 8002 mapindex 41
+Jun 24 20:27:07 :: no sectree for spawn at 951608 587251 mobvnum 8002 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 964395 1236539 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 963896 1236611 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961116 1237060 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961148 1237243 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 962950 1237192 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961461 1236330 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 964019 1236972 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 962140 1237293 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961048 1236532 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960402 1236762 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961514 1236607 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 962953 1237265 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961359 1236512 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960461 1237072 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 963832 1236973 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 962104 1236484 mobvnum 8003 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960844 1226783 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 958959 1227131 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 958569 1226695 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 958780 1226850 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960208 1227234 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960458 1226431 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 958087 1226372 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 957728 1227295 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960267 1227294 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 957400 1227131 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 958711 1227167 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960246 1226553 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 959519 1227055 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 959143 1226417 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 960897 1226625 mobvnum 8004 mapindex 41
+Jun 24 20:27:09 :: no sectree for spawn at 961055 1226836 mobvnum 8004 mapindex 41
+Jun 24 20:27:12 :: GLOBAL_TIME: Jun 24 20:27:12 time_gap 0
+Jun 24 20:27:19 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:19 :: OfflineShop :: Logout(1)
+Jun 24 20:27:19 :: SYSTEM: closing client socket. DESC #29
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:32 :: SYSTEM: closing client socket. DESC #28
+Jun 24 20:27:38 :: PARTY Disable
+Jun 24 20:27:38 :: SYSTEM: closing client socket. DESC #14
+Jun 24 20:27:38 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:39 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:40 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:41 :: SYSTEM: Trying to connect to 127.0.0.1:30000
+SYSERR: Jun 24 20:27:41 :: socket_connect: HOST 127.0.0.1:30000, could not connect.
+Jun 24 20:27:41 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:42 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: SIGHUP, SIGINT, SIGTERM signal has been received. shutting down.
+Jun 24 20:27:43 :: <shutdown> Starting...
+Jun 24 20:27:43 :: <shutdown> Destroying COfflineShop...
+Jun 24 20:27:43 :: <shutdown> Destroying CLoginQueue...
+Jun 24 20:27:43 :: <shutdown> Destroying CArenaManager...
+Jun 24 20:27:43 :: ARENA: ArenaMap will be destroy. mapIndex(112)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: <shutdown> Destroying COXEventManager...
+Jun 24 20:27:43 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: <shutdown> Disabling signal timer...
+Jun 24 20:27:43 :: <shutdown> Destroying CPrivateShopManager...
+Jun 24 20:27:43 :: <shutdown> Shutting down CHARACTER_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Shutting down ITEM_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Flushing db_clientdesc...
+Jun 24 20:27:43 :: <shutdown> Flushing p2p_manager...
+Jun 24 20:27:43 :: <shutdown> Destroying CShopManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CHARACTER_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Destroying ITEM_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Destroying DESC_MANAGER...
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #31
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #32
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #26
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #20
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #19
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #21
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #25
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #24
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #23
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #22
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #27
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #16
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #30
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #18
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #15
+Jun 24 20:27:43 :: <shutdown> Destroying quest::CQuestManager...
+Jun 24 20:27:43 :: <shutdown> Destroying building::CManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CEventFunctionHandler...
+Jun 24 20:27:43 :: <shutdown> Destroying COfflineMessage...
+Jun 24 20:27:43 :: <shutdown> Destroying CGayaSystemManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CEventManager
+Jun 24 20:27:43 :: <shutdown> Clearing CTechnicalMaintenance...
+Jun 24 20:27:43 :: <shutdown> Flushing TrafficProfiler...
+Jun 24 20:27:43 :: <shutdown> Clearing NotificatonSender...
+Jun 24 20:27:43 :: <shutdown> Destroying CTeleportManager...
+Jun 24 20:27:43 :: <shutdown> Destroying MobTrackerManager...
+Jun 24 20:27:43 :: <shutdown> Clearing SashSystemHelper...
+Jun 24 20:27:43 :: <shutdown> Canceling ReloadSpamEvent...
+Jun 24 20:27:43 :: <shutdown> regen_free()...
+Jun 24 20:27:43 :: <shutdown> Closing sockets...
+Jun 24 20:27:43 :: <shutdown> fdwatch_delete()...
+Jun 24 20:27:43 :: <shutdown> event_destroy()...
+Jun 24 20:27:43 :: <shutdown> CTextFileLoader::DestroySystem()...
+Jun 24 20:27:43 :: <shutdown> thecore_destroy()...
+Jun 24 20:27:43 :: 
+End of pid
+

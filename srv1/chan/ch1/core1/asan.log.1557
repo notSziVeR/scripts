@@ -1,0 +1,62 @@
+=================================================================
+==1557==ERROR: AddressSanitizer: global-buffer-overflow on address 0x0065beee at pc 0x009e1963 bp 0xffbfca2c sp 0xffbfc614
+READ of size 128 at 0x0065beee thread T0
+    #0 0x9e1962 in __asan_memcpy /usr/src/contrib/llvm-project/compiler-rt/lib/asan/asan_interceptors_memintrinsics.cpp:22:3
+    #1 0xae5031 in CHARACTER::SpecificEffectPacket(char const*) /usr/home/server-src/Code/game/src/char.cpp:7742:2
+    #2 0xb7f0b8 in CHARACTER::UseItemEx(CItem*, SItemPos) /usr/home/server-src/Code/game/src/char_item.cpp:3788:6
+    #3 0xb98198 in CHARACTER::UseItem(SItemPos, SItemPos) /usr/home/server-src/Code/game/src/char_item.cpp:7427:9
+    #4 0xe01fb6 in CInputMain::ItemUse(CHARACTER*, char const*) /usr/home/server-src/Code/game/src/input_main.cpp:1462:6
+    #5 0xe01fb6 in CInputMain::Analyze(DESC*, unsigned char, char const*) /usr/home/server-src/Code/game/src/input_main.cpp:4246:4
+    #6 0xda8911 in CInputProcessor::Process(DESC*, void const*, int, int&) /usr/home/server-src/Code/game/src/input.cpp:120:27
+    #7 0xceea0e in DESC::ProcessInput() /usr/home/server-src/Code/game/src/desc.cpp:330:30
+    #8 0x15868d8 in io_loop(fdwatch*) /usr/home/server-src/Code/game/src/main.cpp
+    #9 0x1586287 in idle() /usr/home/server-src/Code/game/src/main.cpp:1165:7
+    #10 0x1582534 in main /usr/home/server-src/Code/game/src/main.cpp:755:9
+
+0x0065beee is located 50 bytes to the left of global variable 'b1' defined in 'char_item.cpp:3818:7' (0x65bf20) of size 312
+0x0065beee is located 0 bytes to the right of global variable '<string literal>' defined in 'char_item.cpp:3788:27' (0x65bec0) of size 46
+  '<string literal>' is ascii string 'd:/ymir work/effect/etc/buff/bravery_cape.mse'
+SUMMARY: AddressSanitizer: global-buffer-overflow /usr/src/contrib/llvm-project/compiler-rt/lib/asan/asan_interceptors_memintrinsics.cpp:22:3 in __asan_memcpy
+Shadow bytes around the buggy address:
+  0x400cb780: 00 00 00 00 06 f9 f9 f9 f9 f9 f9 f9 00 00 01 f9
+  0x400cb790: f9 f9 f9 f9 00 00 00 00 00 03 f9 f9 f9 f9 f9 f9
+  0x400cb7a0: 00 00 00 00 00 00 00 00 00 06 f9 f9 f9 f9 f9 f9
+  0x400cb7b0: 00 00 03 f9 f9 f9 f9 f9 00 00 00 05 f9 f9 f9 f9
+  0x400cb7c0: 00 00 00 00 00 00 07 f9 f9 f9 f9 f9 00 00 00 00
+=>0x400cb7d0: 05 f9 f9 f9 f9 f9 f9 f9 00 00 00 00 00[06]f9 f9
+  0x400cb7e0: f9 f9 f9 f9 00 00 00 00 00 00 00 00 00 00 00 00
+  0x400cb7f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x400cb800: 00 00 00 00 00 00 00 00 00 00 00 f9 f9 f9 f9 f9
+  0x400cb810: f9 f9 f9 f9 00 00 00 00 00 00 06 f9 f9 f9 f9 f9
+  0x400cb820: 00 00 00 00 00 00 03 f9 f9 f9 f9 f9 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+=================================================================
+==1557==ERROR: AddressSanitizer: SEGV on unknown address 0x000ef998 (pc 0x21c8c645 bp 0xffbfea48 sp 0xffbfea44 T0)
+==1557==The signal is caused by a READ memory access.
+    #0 0x21c8c645 in __dynamic_cast /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15
+    #1 0x1182c84 in CShopManager::DestroyShopEx() /usr/home/server-src/Code/game/src/shop_manager.cpp:85:23
+    #2 0x1582dae in main /usr/home/server-src/Code/game/src/main.cpp:817:27
+    #3 0x9808eb in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #4 0x980a4f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15 in __dynamic_cast
+==1557==ABORTING

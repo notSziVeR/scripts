@@ -1,0 +1,12 @@
+=================================================================
+==84248==ERROR: AddressSanitizer: SEGV on unknown address 0x000eec6d (pc 0x21c13645 bp 0xffbfea48 sp 0xffbfea44 T0)
+==84248==The signal is caused by a READ memory access.
+    #0 0x21c13645 in __dynamic_cast /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15
+    #1 0x114c984 in CShopManager::DestroyShopEx() /usr/home/server-src/Code/game/src/shop_manager.cpp:85:23
+    #2 0x151829e in main /usr/home/server-src/Code/game/src/main.cpp:801:27
+    #3 0x969a7b in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #4 0x969bdf in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15 in __dynamic_cast
+==84248==ABORTING

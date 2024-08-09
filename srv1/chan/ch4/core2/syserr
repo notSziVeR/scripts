@@ -1,0 +1,95 @@
+SYSERR: Jun 24 20:24:04 :: heart_idle: losing 71 seconds. (lag occured)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:46 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:10 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2301', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:10 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:39 :: socket_connect: HOST 127.0.0.1:30000, could not connect.
+SYSERR: Jun 24 20:27:42 :: socket_connect: HOST 127.0.0.1:30000, could not connect.

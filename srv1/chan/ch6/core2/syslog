@@ -1,0 +1,366 @@
+SYSERR: Jun 24 20:24:04 :: heart_idle: losing 71 seconds. (lag occured)
+Jun 24 20:24:04 :: GLOBAL_TIME: Jun 24 20:23:49 time_gap -15
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 16
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:16560
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 18
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:17584
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30004
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 19
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:19632
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30020
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 20
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:21936
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30016
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 21
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:23728
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30012
+Jun 24 20:24:04 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 22
+Jun 24 20:24:04 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:24240
+Jun 24 20:24:04 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:04 :: P2P: Setup 185.202.223.143:30008
+Jun 24 20:24:05 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 23
+Jun 24 20:24:05 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:26288
+Jun 24 20:24:05 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30024
+Jun 24 20:24:05 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 24
+Jun 24 20:24:05 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:30128
+Jun 24 20:24:05 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30022
+Jun 24 20:24:05 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 25
+Jun 24 20:24:05 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:30384
+Jun 24 20:24:05 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30010
+Jun 24 20:24:05 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 26
+Jun 24 20:24:05 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:32944
+Jun 24 20:24:05 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30018
+Jun 24 20:24:05 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 27
+Jun 24 20:24:05 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:33456
+Jun 24 20:24:05 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30014
+Jun 24 20:24:05 :: P2P: Setup 185.202.223.143:30006
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:05 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing p2p socket. DESC #16
+Jun 24 20:24:05 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing p2p socket. DESC #27
+Jun 24 20:24:05 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:24:05 :: SYSTEM: closing client socket. DESC #15
+Jun 24 20:24:11 :: PARTY Disable
+Jun 24 20:24:11 :: SYSTEM: closing client socket. DESC #14
+Jun 24 20:24:12 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:13 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:14 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:15 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:16 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:17 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:18 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:19 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:20 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:24:21 :: SYSTEM: Trying to connect to 127.0.0.1:30000
+Jun 24 20:24:21 :: SYSTEM: connected to server (fd 14, ptr 0x211a1300)
+Jun 24 20:24:21 :: DB_SETUP current user 0 size 154
+Jun 24 20:24:21 :: PARTY Enable
+Jun 24 20:24:21 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 15
+Jun 24 20:24:21 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:51888
+Jun 24 20:24:21 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:21 :: InputDB::MapLocations 2
+Jun 24 20:24:21 :: MapLocation::Insert : 1 185.202.223.143 30023
+Jun 24 20:24:21 :: MapLocation::Insert : 2 185.202.223.143 30023
+Jun 24 20:24:21 :: MapLocation::Insert : 3 185.202.223.143 30023
+Jun 24 20:24:21 :: MapLocation::Insert : 41 185.202.223.143 30023
+Jun 24 20:24:21 :: MapLocation::Insert : 43 185.202.223.143 30023
+Jun 24 20:24:21 :: MapLocation::Insert : 61 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 62 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 63 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 64 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 65 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 67 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 68 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 71 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 72 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 73 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 104 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 215 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 216 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 217 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 218 185.202.223.143 30025
+Jun 24 20:24:21 :: MapLocation::Insert : 353 185.202.223.143 30025
+Jun 24 20:24:21 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:24:21 :: P2P: Setup 185.202.223.143:30004
+Jun 24 20:24:22 :: InputDB:P2P 185.202.223.143:30010
+Jun 24 20:24:22 :: SYSTEM: Trying to connect to 185.202.223.143:30010
+Jun 24 20:24:22 :: SYSTEM: connected to server (fd 16, ptr 0x687deb00)
+Jun 24 20:24:22 :: P2P Connector opened (host 185.202.223.143)
+Jun 24 20:24:23 :: SYSTEM: new p2p connection from [185.202.223.143] fd: 27
+Jun 24 20:24:23 :: DESC_MANAGER::AcceptP2PDesc  185.202.223.143:55728
+Jun 24 20:24:23 :: P2P Acceptor opened (host 185.202.223.143)
+Jun 24 20:24:23 :: P2P: Setup 185.202.223.143:30006
+Jun 24 20:24:28 :: P2P: Login Shimo
+Jun 24 20:24:28 :: OfflineShop :: Login(1) -> P2P
+Jun 24 20:25:04 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:25:04 :: 	--mysql_set_character_set(utf8)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:09 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:25:11 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:25:11 :: 	--mysql_set_character_set(utf8)
+Jun 24 20:25:12 :: GLOBAL_TIME: Jun 24 20:25:12 time_gap 0
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '1107', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:25:40 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:25:41 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:25:41 :: 	--mysql_set_character_set(utf8)
+Jun 24 20:25:47 :: no sectree for spawn at 1056066 -345 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1059584 -472 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1058014 -1841 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1057907 -554 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1057691 -1410 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1056370 -1386 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1055993 -535 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1057453 -1745 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1058297 -1819 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1057860 -676 mobvnum 8027 mapindex 68
+Jun 24 20:25:47 :: no sectree for spawn at 1056990 -577 mobvnum 8027 mapindex 68
+Jun 24 20:26:06 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:26:06 :: 	--mysql_set_character_set(utf8)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:08 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:26:12 :: GLOBAL_TIME: Jun 24 20:26:12 time_gap 0
+Jun 24 20:26:12 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:26:12 :: 	--mysql_set_character_set(utf8)
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:13 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:26:14 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:26:15 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:26:15 :: 	--mysql_set_character_set(utf8)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:07 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:27:12 :: GLOBAL_TIME: Jun 24 20:27:12 time_gap 0
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: query failed: Can't connect to MySQL server on '127.0.0.1' (61) (query: INSERT IGNORE INTO translation_error (`type`, `lang_type`, lang_key, error) VALUES (5, 1, '2065', 'Failed to find key for mob inside default strings') errno: 2003)
+SYSERR: Jun 24 20:27:14 :: ChildLoop: AsyncSQL: retrying
+Jun 24 20:27:15 :: MySQL connection was reconnected. querying locale set
+Jun 24 20:27:15 :: 	--mysql_set_character_set(utf8)
+Jun 24 20:27:19 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:19 :: OfflineShop :: Logout(1)
+Jun 24 20:27:19 :: SYSTEM: closing p2p socket. DESC #27
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: QUEST eventflag oxevent_status 0 prev_value 0
+Jun 24 20:27:32 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:32 :: SYSTEM: closing p2p socket. DESC #15
+Jun 24 20:27:38 :: PARTY Disable
+Jun 24 20:27:38 :: SYSTEM: closing client socket. DESC #14
+Jun 24 20:27:39 :: SYSTEM: Trying to connect to 127.0.0.1:30000
+SYSERR: Jun 24 20:27:39 :: socket_connect: HOST 127.0.0.1:30000, could not connect.
+Jun 24 20:27:39 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:40 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:41 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:42 :: SYSTEM: Trying to connect to 127.0.0.1:30000
+SYSERR: Jun 24 20:27:42 :: socket_connect: HOST 127.0.0.1:30000, could not connect.
+Jun 24 20:27:42 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: SIGHUP, SIGINT, SIGTERM signal has been received. shutting down.
+Jun 24 20:27:43 :: <shutdown> Starting...
+Jun 24 20:27:43 :: <shutdown> Destroying COfflineShop...
+Jun 24 20:27:43 :: <shutdown> Destroying CLoginQueue...
+Jun 24 20:27:43 :: <shutdown> Destroying CArenaManager...
+Jun 24 20:27:43 :: ARENA: ArenaMap will be destroy. mapIndex(112)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: ARENA: End Duel PID_A(0) vs PID_B(0)
+Jun 24 20:27:43 :: <shutdown> Destroying COXEventManager...
+Jun 24 20:27:43 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+Jun 24 20:27:43 :: <shutdown> Disabling signal timer...
+Jun 24 20:27:43 :: <shutdown> Destroying CPrivateShopManager...
+Jun 24 20:27:43 :: <shutdown> Shutting down CHARACTER_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Shutting down ITEM_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Flushing db_clientdesc...
+Jun 24 20:27:43 :: <shutdown> Flushing p2p_manager...
+Jun 24 20:27:43 :: <shutdown> Destroying CShopManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CHARACTER_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Destroying ITEM_MANAGER...
+Jun 24 20:27:43 :: <shutdown> Destroying DESC_MANAGER...
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #26
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #24
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #23
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #22
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #18
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #21
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #20
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #19
+Jun 24 20:27:43 :: P2P Connector closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing client socket. DESC #16
+Jun 24 20:27:43 :: P2P Acceptor closed (host 185.202.223.143)
+Jun 24 20:27:43 :: SYSTEM: closing p2p socket. DESC #25
+Jun 24 20:27:43 :: <shutdown> Destroying quest::CQuestManager...
+Jun 24 20:27:43 :: <shutdown> Destroying building::CManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CEventFunctionHandler...
+Jun 24 20:27:43 :: <shutdown> Destroying COfflineMessage...
+Jun 24 20:27:43 :: <shutdown> Destroying CGayaSystemManager...
+Jun 24 20:27:43 :: <shutdown> Destroying CEventManager
+Jun 24 20:27:43 :: <shutdown> Clearing CTechnicalMaintenance...
+Jun 24 20:27:43 :: <shutdown> Flushing TrafficProfiler...
+Jun 24 20:27:43 :: <shutdown> Clearing NotificatonSender...
+Jun 24 20:27:43 :: <shutdown> Destroying CTeleportManager...
+Jun 24 20:27:43 :: <shutdown> Destroying MobTrackerManager...
+Jun 24 20:27:43 :: <shutdown> Clearing SashSystemHelper...
+Jun 24 20:27:43 :: <shutdown> Canceling ReloadSpamEvent...
+Jun 24 20:27:43 :: <shutdown> regen_free()...
+Jun 24 20:27:43 :: <shutdown> Closing sockets...
+Jun 24 20:27:43 :: <shutdown> fdwatch_delete()...
+Jun 24 20:27:43 :: <shutdown> event_destroy()...
+Jun 24 20:27:43 :: <shutdown> CTextFileLoader::DestroySystem()...
+Jun 24 20:27:43 :: <shutdown> thecore_destroy()...
+Jun 24 20:27:43 :: 
+End of pid
+

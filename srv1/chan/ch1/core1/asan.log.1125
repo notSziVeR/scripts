@@ -1,0 +1,72 @@
+=================================================================
+==1125==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x2feface8 at pc 0x01547555 bp 0xffbfcf3c sp 0xffbfcf34
+WRITE of size 4 at 0x2feface8 thread T0
+    #0 0x1547554 in CBuffNPCActor::SetSkill(unsigned int, unsigned int) /usr/home/server-src/Code/game/src/buff_npc_system.cpp:547:25
+    #1 0xc88c96 in do_buff_set_skill(CHARACTER*, char const*, int, int) /usr/home/server-src/Code/game/src/cmd_gm.cpp
+    #2 0xc1d6e0 in interpret_command(CHARACTER*, char const*, unsigned int) /usr/home/server-src/Code/game/src/cmd.cpp:1236:3
+    #3 0xde168f in CInputMain::Chat(CHARACTER*, char const*, unsigned int) /usr/home/server-src/Code/game/src/input_main.cpp:1205:3
+    #4 0xdf6707 in CInputMain::Analyze(DESC*, unsigned char, char const*) /usr/home/server-src/Code/game/src/input_main.cpp:4221:20
+    #5 0xd9d171 in CInputProcessor::Process(DESC*, void const*, int, int&) /usr/home/server-src/Code/game/src/input.cpp:120:27
+    #6 0xce326e in DESC::ProcessInput() /usr/home/server-src/Code/game/src/desc.cpp:330:30
+    #7 0x157b138 in io_loop(fdwatch*) /usr/home/server-src/Code/game/src/main.cpp
+    #8 0x157aae7 in idle() /usr/home/server-src/Code/game/src/main.cpp:1165:7
+    #9 0x1576d94 in main /usr/home/server-src/Code/game/src/main.cpp:755:9
+
+0x2feface8 is located 40 bytes to the right of 160-byte region [0x2fefac20,0x2fefacc0)
+allocated by thread T0 here:
+    #0 0xa102e9 in operator new(unsigned int) /usr/src/contrib/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp:95:3
+    #1 0xab310d in CHARACTER::SetPlayerProto(SPlayerTable const*) /usr/home/server-src/Code/game/src/char.cpp:2658:20
+    #2 0xdadbb4 in CInputDB::PlayerLoad(DESC*, char const*) /usr/home/server-src/Code/game/src/input_db.cpp:484:6
+    #3 0xdc06e2 in CInputDB::Analyze(DESC*, unsigned char, char const*) /usr/home/server-src/Code/game/src/input_db.cpp:2464:3
+    #4 0xdc615d in CInputDB::Process(DESC*, void const*, int, int&) /usr/home/server-src/Code/game/src/input_db.cpp:2895:7
+    #5 0xce326e in DESC::ProcessInput() /usr/home/server-src/Code/game/src/desc.cpp:330:30
+    #6 0x157b138 in io_loop(fdwatch*) /usr/home/server-src/Code/game/src/main.cpp
+    #7 0x157aae7 in idle() /usr/home/server-src/Code/game/src/main.cpp:1165:7
+    #8 0x1576d94 in main /usr/home/server-src/Code/game/src/main.cpp:755:9
+    #9 0x97cbcb in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #10 0x97cd2f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /usr/home/server-src/Code/game/src/buff_npc_system.cpp:547:25 in CBuffNPCActor::SetSkill(unsigned int, unsigned int)
+Shadow bytes around the buggy address:
+  0x45fdf540: fd fd fd fa fa fa fa fa fa fa fa fa fd fd fd fd
+  0x45fdf550: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fa
+  0x45fdf560: fa fa fa fa fa fa fa fa fd fd fd fd fd fd fd fd
+  0x45fdf570: fd fd fd fd fd fd fd fd fd fd fd fd fa fa fa fa
+  0x45fdf580: fa fa fa fa 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x45fdf590: 00 00 00 00 00 00 00 00 fa fa fa fa fa[fa]fa fa
+  0x45fdf5a0: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x45fdf5b0: fd fd fd fd fa fa fa fa fa fa fa fa fd fd fd fd
+  0x45fdf5c0: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x45fdf5d0: fa fa fa fa fa fa fa fa fd fd fd fd fd fd fd fd
+  0x45fdf5e0: fd fd fd fd fd fd fd fd fd fd fd fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+=================================================================
+==1125==ERROR: AddressSanitizer: SEGV on unknown address 0x000f01e9 (pc 0x21c72645 bp 0xffbfea48 sp 0xffbfea44 T0)
+==1125==The signal is caused by a READ memory access.
+    #0 0x21c72645 in __dynamic_cast /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15
+    #1 0x11774e4 in CShopManager::DestroyShopEx() /usr/home/server-src/Code/game/src/shop_manager.cpp:85:23
+    #2 0x157760e in main /usr/home/server-src/Code/game/src/main.cpp:817:27
+    #3 0x97cbcb in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #4 0x97cd2f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15 in __dynamic_cast
+==1125==ABORTING

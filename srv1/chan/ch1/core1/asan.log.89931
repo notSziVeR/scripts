@@ -1,0 +1,121 @@
+=================================================================
+==89931==ERROR: AddressSanitizer: heap-use-after-free on address 0x3f9481f8 at pc 0x00badcd3 bp 0xffbfe034 sp 0xffbfe02c
+READ of size 4 at 0x3f9481f8 thread T0
+    #0 0xbadcd2 in VID::operator unsigned int() const /usr/home/server-src/Code/game/src/./vid.h:41:10
+    #1 0xbadcd2 in CHARACTER_MANAGER::DestroyCharacter(CHARACTER*) /usr/home/server-src/Code/game/src/char_manager.cpp:122:34
+    #2 0x149c43e in pet::Pet::Pet(pet::PetSystem&, item::ItemTogglePet&)::$_0::operator()(CHARACTER*) const /usr/home/server-src/Code/game/src/Pet.cpp:16:34
+    #3 0x149c43e in pet::Pet::Pet(pet::PetSystem&, item::ItemTogglePet&)::$_0::__invoke(CHARACTER*) /usr/home/server-src/Code/game/src/Pet.cpp:14:25
+    #4 0x149c5d5 in std::__1::unique_ptr<CHARACTER, void (*)(CHARACTER*)>::reset(CHARACTER*) /usr/include/c++/v1/__memory/unique_ptr.h:315:7
+    #5 0x149c5d5 in std::__1::unique_ptr<CHARACTER, void (*)(CHARACTER*)>::~unique_ptr() /usr/include/c++/v1/__memory/unique_ptr.h:269:19
+    #6 0x149c5d5 in pet::Pet::~Pet() /usr/home/server-src/Code/game/src/./Pet.hpp:11:27
+    #7 0x149c5d5 in pet::Pet::~Pet() /usr/home/server-src/Code/game/src/./Pet.hpp:11:27
+    #8 0x149d8ec in std::__1::default_delete<pet::Pet>::operator()(pet::Pet*) const /usr/include/c++/v1/__memory/unique_ptr.h:54:5
+    #9 0x149d8ec in std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> >::reset(pet::Pet*) /usr/include/c++/v1/__memory/unique_ptr.h:315:7
+    #10 0x149d8ec in std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> >::~unique_ptr() /usr/include/c++/v1/__memory/unique_ptr.h:269:19
+    #11 0x149d8ec in std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >::~pair() /usr/include/c++/v1/__utility/pair.h:40:29
+    #12 0x149d8ec in void std::__1::__destroy_at<std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, 0>(std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >*) /usr/include/c++/v1/__memory/construct_at.h:56:13
+    #13 0x149d8ec in void std::__1::destroy_at<std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, 0>(std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >*) /usr/include/c++/v1/__memory/construct_at.h:81:5
+    #14 0x149d8ec in void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*> > >::destroy<std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void, void>(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*> >&, std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >*) /usr/include/c++/v1/__memory/allocator_traits.h:317:9
+    #15 0x149d8ec in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*>*) /usr/include/c++/v1/__tree:1803:9
+    #16 0x149d867 in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*>*) /usr/include/c++/v1/__tree:1800:9
+    #17 0x149d889 in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*>*) /usr/include/c++/v1/__tree:1801:9
+    #18 0x149d867 in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*>*) /usr/include/c++/v1/__tree:1800:9
+    #19 0x149d867 in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, void*>*) /usr/include/c++/v1/__tree:1800:9
+    #20 0x149d293 in std::__1::__tree<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > >, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::~__tree() /usr/include/c++/v1/__tree:1791:3
+    #21 0x149d293 in std::__1::map<unsigned int, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> >, std::__1::less<unsigned int>, std::__1::allocator<std::__1::pair<unsigned int const, std::__1::unique_ptr<pet::Pet, std::__1::default_delete<pet::Pet> > > > >::~map() /usr/include/c++/v1/map:1153:5
+    #22 0x149d293 in pet::PetSystem::~PetSystem() /usr/home/server-src/Code/game/src/./PetSystem.hpp:16:33
+    #23 0x149d293 in pet::PetSystem::~PetSystem() /usr/home/server-src/Code/game/src/./PetSystem.hpp:16:33
+    #24 0xa7baeb in std::__1::default_delete<pet::PetSystem>::operator()(pet::PetSystem*) const /usr/include/c++/v1/__memory/unique_ptr.h:54:5
+    #25 0xa7baeb in std::__1::unique_ptr<pet::PetSystem, std::__1::default_delete<pet::PetSystem> >::reset(pet::PetSystem*) /usr/include/c++/v1/__memory/unique_ptr.h:315:7
+    #26 0xa7baeb in std::__1::unique_ptr<pet::PetSystem, std::__1::default_delete<pet::PetSystem> >::~unique_ptr() /usr/include/c++/v1/__memory/unique_ptr.h:269:19
+    #27 0xa7baeb in CHARACTER::~CHARACTER() /usr/home/server-src/Code/game/src/char.cpp:279:1
+    #28 0xa7fd65 in CHARACTER::~CHARACTER() /usr/home/server-src/Code/game/src/char.cpp:277:1
+    #29 0xbadbff in CHARACTER_MANAGER::DestroyCharacter(CHARACTER*) /usr/home/server-src/Code/game/src/char_manager.cpp:180:2
+    #30 0xa949c3 in CHARACTER::Disconnect(char const*) /usr/home/server-src/Code/game/src/char.cpp:2020:2
+    #31 0xcc0a89 in DESC::Destroy() /usr/home/server-src/Code/game/src/desc.cpp:148:18
+    #32 0xccee0f in DESC_MANAGER::DestroyDesc(DESC*, bool) /usr/home/server-src/Code/game/src/desc_manager.cpp:266:5
+    #33 0xcd166a in DESC_MANAGER::DestroyClosed() /usr/home/server-src/Code/game/src/desc_manager.cpp:295:4
+    #34 0x151b962 in io_loop(fdwatch*) /usr/home/server-src/Code/game/src/main.cpp:1233:27
+    #35 0x151b417 in idle() /usr/home/server-src/Code/game/src/main.cpp:1149:7
+    #36 0x15176d4 in main /usr/home/server-src/Code/game/src/main.cpp:739:9
+
+0x3f9481f8 is located 248 bytes inside of 15580-byte region [0x3f948100,0x3f94bddc)
+freed by thread T0 here:
+    #0 0x9fdb57 in operator delete(void*) /usr/src/contrib/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp:152:3
+    #1 0xbadbff in CHARACTER_MANAGER::DestroyCharacter(CHARACTER*) /usr/home/server-src/Code/game/src/char_manager.cpp:180:2
+    #2 0xb1b071 in dead_event(boost::intrusive_ptr<event>, long) /usr/home/server-src/Code/game/src/char_battle.cpp:708:3
+    #3 0xa0fb92 in decltype(static_cast<long (*&>(fp)(static_cast<boost::intrusive_ptr<event>>(fp0), static_cast<long>(fp0))) std::__1::__invoke<long (*&)(boost::intrusive_ptr<event>, long), boost::intrusive_ptr<event>, long>(long (*&)(boost::intrusive_ptr<event>, long), boost::intrusive_ptr<event>&&, long&&) /usr/include/c++/v1/type_traits:3640:23
+    #4 0xa0fb92 in long std::__1::__invoke_void_return_wrapper<long, false>::__call<long (*&)(boost::intrusive_ptr<event>, long), boost::intrusive_ptr<event>, long>(long (*&)(boost::intrusive_ptr<event>, long), boost::intrusive_ptr<event>&&, long&&) /usr/include/c++/v1/__functional/invoke.h:30:16
+    #5 0xa0fb92 in std::__1::__function::__alloc_func<long (*)(boost::intrusive_ptr<event>, long), std::__1::allocator<long (*)(boost::intrusive_ptr<event>, long)>, long (boost::intrusive_ptr<event>, long)>::operator()(boost::intrusive_ptr<event>&&, long&&) /usr/include/c++/v1/__functional/function.h:180:16
+    #6 0xa0fb92 in std::__1::__function::__func<long (*)(boost::intrusive_ptr<event>, long), std::__1::allocator<long (*)(boost::intrusive_ptr<event>, long)>, long (boost::intrusive_ptr<event>, long)>::operator()(boost::intrusive_ptr<event>&&, long&&) /usr/include/c++/v1/__functional/function.h:354:12
+    #7 0xd16310 in std::__1::__function::__value_func<long (boost::intrusive_ptr<event>, long)>::operator()(boost::intrusive_ptr<event>&&, long&&) const /usr/include/c++/v1/__functional/function.h:507:16
+    #8 0xd16310 in std::__1::function<long (boost::intrusive_ptr<event>, long)>::operator()(boost::intrusive_ptr<event>, long) const /usr/include/c++/v1/__functional/function.h:1184:12
+    #9 0xd16310 in event_process(int) /usr/home/server-src/Code/game/src/event.cpp:137:15
+    #10 0x15149cb in heartbeat(heart*, int) /usr/home/server-src/Code/game/src/main.cpp:360:23
+    #11 0x151b319 in idle() /usr/home/server-src/Code/game/src/main.cpp:1137:3
+    #12 0x15176d4 in main /usr/home/server-src/Code/game/src/main.cpp:739:9
+    #13 0x969c1b in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #14 0x969d7f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+previously allocated by thread T0 here:
+    #0 0x9fd339 in operator new(unsigned int) /usr/src/contrib/llvm-project/compiler-rt/lib/asan/asan_new_delete.cpp:95:3
+    #1 0xbae724 in CHARACTER_MANAGER::CreateCharacter(char const*, unsigned int) /usr/home/server-src/Code/game/src/char_manager.cpp:92:19
+    #2 0xbb166c in CHARACTER_MANAGER::SpawnMob(unsigned int, long, long, long, long, bool, int, bool) /usr/home/server-src/Code/game/src/char_manager.cpp:450:49
+    #3 0x149ba84 in pet::Pet::Summon(bool) /usr/home/server-src/Code/game/src/Pet.cpp:32:50
+    #4 0x149ad2f in item::ItemTogglePet::OnActivate() /usr/home/server-src/Code/game/src/ItemTogglePet.cpp:64:10
+    #5 0x12ea4a2 in item::ItemToggle::Activate(bool) /usr/home/server-src/Code/game/src/ItemToggle.cpp:115:3
+    #6 0x12eb20d in item::ItemToggle::OnLoad() /usr/home/server-src/Code/game/src/ItemToggle.cpp:248:3
+    #7 0xd99029 in CInputDB::ItemLoad(DESC*, char const*) /usr/home/server-src/Code/game/src/input_db.cpp:1748:12
+    #8 0xda0c9b in CInputDB::Analyze(DESC*, unsigned char, char const*) /usr/home/server-src/Code/game/src/input_db.cpp:2469:3
+    #9 0xda639d in CInputDB::Process(DESC*, void const*, int, int&) /usr/home/server-src/Code/game/src/input_db.cpp:2859:7
+    #10 0xcc46ce in DESC::ProcessInput() /usr/home/server-src/Code/game/src/desc.cpp:330:30
+    #11 0x151ba68 in io_loop(fdwatch*) /usr/home/server-src/Code/game/src/main.cpp
+    #12 0x151b417 in idle() /usr/home/server-src/Code/game/src/main.cpp:1149:7
+    #13 0x15176d4 in main /usr/home/server-src/Code/game/src/main.cpp:739:9
+    #14 0x969c1b in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #15 0x969d7f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+SUMMARY: AddressSanitizer: heap-use-after-free /usr/home/server-src/Code/game/src/./vid.h:41:10 in VID::operator unsigned int() const
+Shadow bytes around the buggy address:
+  0x47f28fe0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x47f28ff0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x47f29000: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x47f29010: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x47f29020: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+=>0x47f29030: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd[fd]
+  0x47f29040: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x47f29050: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x47f29060: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x47f29070: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+  0x47f29080: fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd fd
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+=================================================================
+==89931==ERROR: AddressSanitizer: SEGV on unknown address 0x000ef4eb (pc 0x21c12645 bp 0xffbfea48 sp 0xffbfea44 T0)
+==89931==The signal is caused by a READ memory access.
+    #0 0x21c12645 in __dynamic_cast /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15
+    #1 0x114c634 in CShopManager::DestroyShopEx() /usr/home/server-src/Code/game/src/shop_manager.cpp:85:23
+    #2 0x1517f4e in main /usr/home/server-src/Code/game/src/main.cpp:801:27
+    #3 0x969c1b in _start1 /usr/src/lib/csu/i386/crt1_c.c:72:7
+    #4 0x969d7f in _start /usr/src/lib/csu/i386/crt1_s.S:46
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /usr/src/contrib/libcxxrt/dynamic_cast.cc:208:15 in __dynamic_cast
+==89931==ABORTING
